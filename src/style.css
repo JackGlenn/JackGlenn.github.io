@@ -1,0 +1,53 @@
+:root {
+    --backgroundColor: #111111;
+    --textColor: white;
+}
+
+* {
+    color: var(--textColor);
+}
+
+body {
+    background-color: var(--backgroundColor, #111111);
+}
+
+@media (width > 800px) {
+    .contentGrid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+.contentGrid {
+    /* width: 60%; */
+    /* margin-inline: auto; */
+    /* max-width: 80%; */
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    display: grid;
+    grid-gap: 0.5rem;
+
+    position: relative;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.portfolioItem > {
+    max-width: 100%;
+}
+
+.portfolioItem > img {
+    /* max-height: 100%; */
+    object-fit: contain;
+    /* max-width: 100%; */
+    width: 100%;
+    height: auto;
+}
+
+.portfolioItem > img:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
