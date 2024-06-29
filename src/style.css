@@ -1,28 +1,63 @@
 :root {
     --backgroundColor: #111111;
+    --nameColor: #fafafa;
+    --descriptionColor: #9ca3af;
     --textColor: white;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+@media (width >= 900px) {
+    .contentGrid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (600px < width < 900px) {
+    .contentGrid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (width <= 600px) {
+    .contentGrid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
 }
 
 * {
     color: var(--textColor);
+    /* Remove margin from body */
+    margin: 0; 
+    line-height: calc(1em + 0.5rem);
 }
 
 body {
     background-color: var(--backgroundColor, #111111);
-}
-
-@media (width > 800px) {
-    .contentGrid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
+    /* font-family: 'Alpino', sans-serif; */
+    font-family: 'Nunito', sans-serif;
 }
 
 .contentGrid {
     /* width: 60%; */
     /* margin-inline: auto; */
     /* max-width: 80%; */
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     display: grid;
     grid-gap: 0.5rem;
 
@@ -52,8 +87,24 @@ body {
     cursor: pointer;
 }
 
+
+
+.infoCard {
+    /* Inline block removed the underline of its children due to parent anchor tag */
+    display: inline-block;
+    width: 100%;
+}
+
 .description {
     /* text-decoration-line: none; */
     /* This removes the underlined text due to the anchor tag */
-    display: inline-block;
+    /* display: inline-block; */
+    /* width: inherit; */
+    color: var(--descriptionColor);
+    word-wrap: break-word;
+}
+
+.name {
+    color: var(--nameColor);
+    font-family: 'Bebas Neue', sans-serif;
 }
