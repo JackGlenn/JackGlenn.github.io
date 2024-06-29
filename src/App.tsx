@@ -6,10 +6,10 @@ function App() {
   return (
     <div className="contentGrid">
       <div className="flexCol">
-        <div className="portfolioItem">
+        <a href="a" className="portfolioItem">
           <img src={image} />
-          <p>text</p>
-        </div>
+          <p className="description">text</p>
+        </a>
         <div className="portfolioItem">
           <img src={image} />
         </div>

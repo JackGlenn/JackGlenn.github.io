@@ -26,7 +26,7 @@ body {
     display: grid;
     grid-gap: 0.5rem;
 
-    position: relative;
+    /* position: relative; */
 }
 
 .flexCol {
@@ -50,4 +50,10 @@ body {
 .portfolioItem > img:hover {
     opacity: 80%;
     cursor: pointer;
+}
+
+.description {
+    /* text-decoration-line: none; */
+    /* This removes the underlined text due to the anchor tag */
+    display: inline-block;
 }
