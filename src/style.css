@@ -52,6 +52,23 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: var(--backgroundColor);
+    padding-left: 1rem;
+    z-index: 1;
+    /* border-bottom-width: 0.25rem;
+    border-bottom-color: var(--descriptionColor);
+    border-bottom-style: solid; */
+}
+
+.header > {
+    color: var(--nameColor);
+    font-family: 'Bebas Neue', sans-serif;
+}
+
 .contentGrid {
     /* width: 60%; */
     /* margin-inline: auto; */
