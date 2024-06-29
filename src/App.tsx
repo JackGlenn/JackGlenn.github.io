@@ -3,6 +3,7 @@ import { useState } from 'react'
 import PortfolioItem from './PortfolioItem.tsx'
 import image from '/JackOfHearts.png'
 import vite from "/vite.svg"
+import test from "/test.jpg"
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
 
         </div>
         <div className="flexCol">
-          <PortfolioItem link={"a"} image={image} name={"third"} description={"description"}/>
+          <PortfolioItem link={"a"} image={test} name={"third"} description={"description"}/>
           <PortfolioItem link={"a"} image={image} name={"fourth"} description={"description"}/>
         </div>
         <div className="flexCol">
