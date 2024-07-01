@@ -58,17 +58,48 @@ body {
     top: 0;
     background-color: var(--backgroundColor);
     padding-left: 1rem;
+    padding-right: 1rem;
     z-index: 1;
     /* border-bottom-width: 0.25rem;
     border-bottom-color: var(--descriptionColor);
     border-bottom-style: solid; */
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+
+    border: 0;
+    border-bottom: 0.125rem;
+    border-color: hsla(0, 0%, 100%, 0.1);
+    border-style: solid;
 }
 
 .header > h1 {
     color: var(--nameColor);
     font-family: 'Bebas Neue', sans-serif;
+    /* letter-spacing: 0.05rem; */
+    /* font-size: 2rem; */
+   
+}
+
+.bio {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.bio > h1 {
+    color: var(--nameColor);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    /* font-family: 'Nunito', sans-serif; */
+    word-wrap: break-word;
+    /* letter-spacing: 0.05em; */
+}
+
+.bio > p {
+    word-wrap: break-word;
+    color: var(--descriptionColor);
+    max-width: 60ch;
 }
 
 .contentGrid {
@@ -120,4 +151,6 @@ body {
 .name {
     color: var(--nameColor);
     font-family: 'Bebas Neue', sans-serif;
+    word-wrap: break-word;
+    /* letter-spacing: 0.025em; */
 }
