@@ -158,3 +158,15 @@ body {
   word-wrap: break-word;
   /* letter-spacing: 0.025em; */
 }
+
+.notFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh
+}
+
+.notFound > h1 {
+  font-family: var(--bebasNeue);
+  font-size: 3rem;
+}
