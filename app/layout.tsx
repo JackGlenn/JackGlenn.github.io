@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import { Nunito, Bebas_Neue } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const nunito = Nunito({ subsets: ["latin"], variable: "--nunito", display:"swap" });
+const bebas_neue = Bebas_Neue({ subsets: ["latin"], weight:"400", variable: "--bebasNeue", display:"swap" });
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${nunito.variable} ${bebas_neue.variable}`}>{children}</body>
     </html>
   );
 }
+
