@@ -1,8 +1,20 @@
 :root {
-  --backgroundColor: #111111;
+  --backgroundColor: #12082C;
+  /* --backgroundColor: #463e39; */
   --nameColor: #fafafa;
   --descriptionColor: #9ca3af;
-  --textColor: white;
+  
+  --backgroundColor: #0E081D;
+  --nameColor: #E84646;
+  --descriptionColor:  #e28686;
+
+  --backgroundColor: #0a0526;
+  --nameColor: #ffffff;
+  --descriptionColor: #9ca3af;
+
+  --descriptionColor: #9c9daf;
+  --nameColor: #ECEAF8;
+  --backgroundColor: #080715;
 }
 
 *,
@@ -114,6 +126,7 @@ body {
   display: grid;
   grid-gap: 0.75rem;
 
+  margin-bottom: 1.5rem;
   /* position: relative; */
 }
 
