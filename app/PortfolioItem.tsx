@@ -2,7 +2,7 @@
 
 type PortfolioProp = {
     link: string;
-    image: string;
+    image?: string;
     name: string;
     description: string;
 };

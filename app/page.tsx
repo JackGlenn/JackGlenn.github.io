@@ -26,6 +26,8 @@ export default function Home() {
         </div>
         <div className="flexCol">
           <PortfolioItem link={"a"} image={"/JackOfHearts.png"} name={"fifth"} description={"description"}/>
+          <PortfolioItem link={"a"} name={"sixth"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eveniet quas reprehenderit neque sit, amet voluptatibus cupiditate qui iste asperiores minima incidunt numquam eius, soluta rem officiis. Cum, reprehenderit tenetur!"}/>
+
         </div>
       </div>
     </>

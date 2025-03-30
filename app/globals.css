@@ -15,6 +15,12 @@
   --descriptionColor: #9c9daf;
   --nameColor: #ECEAF8;
   --backgroundColor: #080715;
+
+  --cardBackground: #100e2b;
+  --cardBackground: #020024;
+  --other: #03003b;
+
+  --textColor: white;
 }
 
 *,
@@ -153,6 +159,7 @@ body {
   /* Inline block removed the underline of its children due to parent anchor tag */
   display: inline-block;
   width: 100%;
+  /* background-color: var(--cardBackground); */
 }
 
 .description {
