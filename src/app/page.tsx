@@ -1,5 +1,3 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import PortfolioItem from './PortfolioItem'
 // import image from '/JackOfHearts.png'
 // import test from "/test.jpg"
