@@ -22,7 +22,9 @@ export default function RootLayout({
         <div className='header'>
           <h1>Jack Glenn</h1>
         </div>
-        {children}
+        <div className="mainContent">
+          {children}
+        </div>
       </body>
     </html>
   );
