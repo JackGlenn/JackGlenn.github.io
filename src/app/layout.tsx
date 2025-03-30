@@ -18,7 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${nunito.variable} ${bebas_neue.variable}`}>{children}</body>
+      <body className={`${nunito.variable} ${bebas_neue.variable}`}>
+        <div className='header'>
+          <h1>Jack Glenn</h1>
+        </div>
+        {children}
+      </body>
     </html>
   );
 }

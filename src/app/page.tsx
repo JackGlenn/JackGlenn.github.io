@@ -7,9 +7,6 @@ import PortfolioItem from './PortfolioItem'
 export default function Home() {
   return (
     <>
-      <div className='header'>
-        <h1>Jack Glenn</h1>
-      </div>
       <div className="bio">
         <h1>About</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eveniet quas reprehenderit neque sit, amet voluptatibus cupiditate qui iste asperiores minima incidunt numquam eius, soluta rem officiis. Cum, reprehenderit tenetur!</p>
