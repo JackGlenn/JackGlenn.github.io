@@ -1,4 +1,5 @@
 // import image from '/JackOfHearts.png'
+import Link from "next/link"
 
 type PortfolioProp = {
     link: string;
@@ -10,13 +11,13 @@ type PortfolioProp = {
 function PortfolioItem({link, image, name, description}: PortfolioProp) {
 
     return (
-        <a href={link} className="portfolioItem">
+      <Link href={link} className="portfolioItem">
         <img src={image} />
         <div className='infoCard'>
           <h1 className="name">{name}</h1>
           <p className="description">{description}</p>
         </div>
-      </a>
+      </Link>
     )
 }
 
