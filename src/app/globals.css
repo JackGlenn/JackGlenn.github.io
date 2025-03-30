@@ -108,6 +108,11 @@ body {
   word-wrap: break-word;
   padding-left: 1rem;
   padding-right: 1rem;
+  text-decoration: none;
+}
+
+.headerLink {
+  text-decoration: none;
 }
 
 .bio {
