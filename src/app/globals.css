@@ -97,7 +97,7 @@ body {
   font-family: var(--bebasNeue);
   /* letter-spacing: 0.05rem; */
   /* font-size: 2rem; */
- 
+  word-wrap: break-word;
 }
 
 .bio {
