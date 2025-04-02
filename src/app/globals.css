@@ -254,3 +254,17 @@ body {
   /* max-width: 60ch; */
   margin-bottom: 1rem;
 }
+
+.projectPage > img {
+  margin-bottom: 1rem;
+}
+
+.button {
+  background-color: var(--cardBackground);
+  /* height: 1rem; */
+  /* width: 2rem; */
+  text-decoration: none;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: inline-block;
+}
