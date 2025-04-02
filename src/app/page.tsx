@@ -11,7 +11,7 @@ export default function Home() {
       </div>
       <div className="contentGrid">
         <div className="flexCol">
-          <PortfolioItem link={"a"} image={"/JackOfHearts.png"} name={"first"} description={"=========================================================================="}/>
+          <PortfolioItem link={"NeonHammer"} image={"/JackOfHearts.png"} name={"NeonHammer"} description={"=========================================================================="}/>
           <PortfolioItem link={"a"} image={"/JackOfHearts.png"} name={"second"} description={"description"}/>
           <PortfolioItem link={"a"} image={"/test.jpg"} name={"third"} description={"description"}/>
 
