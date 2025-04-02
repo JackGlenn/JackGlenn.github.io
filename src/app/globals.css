@@ -158,12 +158,21 @@ body {
   gap: 1rem;
 }
 
+.portfolioItem {
+  background-color: var(--cardBackground);
+  padding: 0.5rem;
+
+}
+
 .portfolioItem > img {
   /* max-height: 100%; */
   object-fit: contain;
   /* max-width: 100%; */
   width: 100%;
   height: auto;
+  /* padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; */
 }
 
 .portfolioItem > img:hover {
@@ -177,18 +186,20 @@ body {
   width: 100%;
   background-color: var(--cardBackground);
   /* font-size: 20pt; */
+
 }
 
 
-.infoCard > * {
-  margin-left: 0.2rem;
+/* .infoCard > * { */
+  /* margin-top: 0.25rem; */
+  /* margin-left: 0.5rem; */
+  /* margin-right: 0.5rem; */
   /* margin-bottom: 0.5rem; */
-  margin-right: 0.2rem;
-}
+/* } */
 
-.infoCard > .description {
-  margin-bottom: 0.2rem;
-}
+/* .infoCard > .description { */
+  /* margin-bottom: 0.5rem; */
+/* } */
 
 .description {
   /* text-decoration-line: none; */
@@ -205,6 +216,7 @@ body {
   font-family: var(--bebasNeue);
   word-wrap: break-word;
   /* letter-spacing: 0.025em; */
+  /* margin-top: 0.5rem; */
 }
 
 .notFound {

@@ -10,9 +10,20 @@ type PortfolioProp = {
 
 function PortfolioItem({link, image, name, description}: PortfolioProp) {
 
+    if (image) {
+      return (
+        <Link href={link} className="portfolioItem">
+          <img src={image} />
+          <div className='infoCard'>
+            <h1 className="name">{name}</h1>
+            <p className="description">{description}</p>
+          </div>
+        </Link>
+      )
+    }
+
     return (
       <Link href={link} className="portfolioItem">
-        <img src={image} />
         <div className='infoCard'>
           <h1 className="name">{name}</h1>
           <p className="description">{description}</p>
