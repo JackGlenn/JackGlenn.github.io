@@ -61,6 +61,7 @@ svg {
 
 }
 
+
 @media (width <= 650px) {
   .contentGrid {
       grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -79,6 +80,12 @@ body {
   /* font-family: 'Alpino', sans-serif; */
   /* font-family: 'Nunito', sans-serif; */
   font-family: var(--nunito);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--nameColor);
+  /* font-family: 'Bebas Neue', sans-serif; */
+  font-family: var(--bebasNeue);
 }
 
 
