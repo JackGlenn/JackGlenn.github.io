@@ -11,12 +11,12 @@ export default function Home() {
       </div>
       <div className="contentGrid">
         <div className="flexCol">
-          <PortfolioItem link={"NeonHammer"} image={"/NeonHammer.png"} name={"Neon Hammer"} description={"Fast paced action game built in Unity"}/>
           <PortfolioItem link={"VisionTransformer"} name={"Vision Transformer"} description={'Implementation of the Google paper “An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale” '}/>
+          <PortfolioItem link={"NeonHammer"}  name={"Neon Hammer"} image={"/NeonHammer.png"} description={"Fast paced action game built in Unity"}/>
         </div>
         <div className="flexCol">
+          <PortfolioItem link={"Assembly"} name={"RISC ISA Implementation"} image={"/PipelineCPU.png"} description={"Assembler, linker, and simulator for a custom RISC instruction set architecture and assembly language in C"}/>
           <PortfolioItem link={"OperatingSystem"} name={"Operating System Components"} description={"Operating system pager, file server, and thread library implemented in C++"}/>
-          <PortfolioItem link={"Assembly"} name={"RISC ISA Implementation"} description={"Assembler, linker, and simulator for a custom RISC instruction set architecture and assembly language in C"}/>
         </div>
       </div>
     </>
