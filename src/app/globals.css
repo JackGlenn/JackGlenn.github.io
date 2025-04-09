@@ -275,3 +275,60 @@ h1, h2, h3, h4, h5, h6 {
   box-sizing: border-box;
   display: inline-block;
 }
+
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid var(--descriptionColor);
+}
+
+
+
+@media (width >= 900px) {
+  thead th:nth-child(1) {
+    width: 25%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 25%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 50%;
+  }
+}
+
+
+@media (width < 900px) {
+  thead th:nth-child(1) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 60%;
+  }
+}
+
+
+th,
+td {
+  /* padding: 20px; */
+  /* padding-bottom: 0.5rem; */
+  padding: 0.5rem;
+  border: 3px solid var(--descriptionColor);
+  word-wrap: break-word;
+}
+
+td {
+  color: var(--descriptionColor)
+}
+
+tr td:nth-child(1), tr td:nth-child(2) {
+  text-align: center;
+}
