@@ -1,4 +1,4 @@
-export default function Assembly() {
+export default function VisionTransformer() {
   return (
     <>
       <div className="projectPage">

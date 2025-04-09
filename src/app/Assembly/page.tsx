@@ -1,8 +1,14 @@
-export default function VisionTransformer() {
+export default function Assembly() {
     return (
       <>
         <div className="projectPage">
+          <img src={"/PipelineCPU.png"}/>
           <h1>RISC ISA Implementation</h1>
+
+
+
+
+          <h1>Instruction Set</h1>
           <p>The custom instruction set architecture is simple example architecture but is capable of general computing. The table below is a description of the instructions.</p>
           <table>
             <thead>
