@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <div className="bio">
         <h1>About</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eveniet quas reprehenderit neque sit, amet voluptatibus cupiditate qui iste asperiores minima incidunt numquam eius, soluta rem officiis. Cum, reprehenderit tenetur!</p>
+        <p>Hello, I'm a computer science graduate from the University of Michigan. This is a portfolio of some of the projects I have worked on.</p>
       </div>
       <div className="contentGrid">
         <div className="flexCol">
