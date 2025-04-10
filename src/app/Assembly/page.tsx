@@ -47,7 +47,7 @@ export default function Assembly() {
               <td>lw</td>
               <td>0b010</td>
               <td>
-                "Load Word", Load <b>regB</b> from memory. Memory address is formed by adding <b>offsetField</b> with
+                &quot;Load Word&quot;, Load <b>regB</b> from memory. Memory address is formed by adding <b>offsetField</b> with
                 the contents of <b>regA</b>. Behavior is defined only for memory addresses in the range [0, 65535].
               </td>
             </tr>
@@ -55,7 +55,7 @@ export default function Assembly() {
               <td>sw</td>
               <td>0b011</td>
               <td>
-                "Store Word", Store <b>regB</b> into memory. Memory address is formed by adding <b>offsetField</b> with
+                &quot;Store Word&quot;, Store <b>regB</b> into memory. Memory address is formed by adding <b>offsetField</b> with
                 the contents of <b>regA</b>. Behavior is defined only for memory addresses in the range [0,65535].
               </td>
             </tr>
@@ -63,7 +63,7 @@ export default function Assembly() {
               <td>beq</td>
               <td>0b100</td>
               <td>
-                "Branch if equal", if the contents of <b>regA</b> and <b>regB</b> are the same, then branch to the
+                &quot;Branch if equal&quot;, if the contents of <b>regA</b> and <b>regB</b> are the same, then branch to the
                 address <b>PC</b>+1+<b>offsetField</b>, where <b>PC</b> is the address of this beq instruction.
               </td>
             </tr>
@@ -71,7 +71,7 @@ export default function Assembly() {
               <td>jalr</td>
               <td>0b101</td>
               <td>
-                "Jump and Link Register", First store the value <b>PC</b>+1 in to <b>regB</b>, where <b>PC</b> is the
+                &quot;Jump and Link Register&quot;, First store the value <b>PC</b>+1 in to <b>regB</b>, where <b>PC</b> is the
                 address where this jalr instruction is defined. Then branch (set <b>PC</b>) to the address contained in{" "}
                 <b>regA</b>. Note that this implies if <b>regA</b> nad <b>regB</b> refer to the same register, the net
                 effect will be jumping to <b>PC</b>+1.
@@ -89,7 +89,7 @@ export default function Assembly() {
               <td>noop</td>
               <td>0b111</td>
               <td>
-                "No Operation", Do nothing besides update the <b>PC</b>.
+                &quot;No Operation&quot;, Do nothing besides update the <b>PC</b>.
               </td>
             </tr>
           </tbody>

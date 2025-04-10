@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <div className="bio">
         <h1>About</h1>
-        <p>Hello, I'm a computer science graduate from the University of Michigan. This is a portfolio of some of the projects I have worked on.</p>
+        <p>Hello, I&apos;m a computer science graduate from the University of Michigan. This is a portfolio of some of the projects I have worked on.</p>
       </div>
       <div className="contentGrid">
         <div className="flexCol">
