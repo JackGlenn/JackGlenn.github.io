@@ -1,0 +1,1 @@
+grep -rli '_next' * | xargs -I@ sed -i '' 's/_next/next2/g' @
